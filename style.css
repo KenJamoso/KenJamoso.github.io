@@ -89,6 +89,15 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:.5rem}
 .edu p{display:flex;flex-wrap:wrap;gap:.25rem 1rem;padding:.7rem 0;border-bottom:1px solid var(--line)}
 .edu span{margin-left:auto;color:var(--muted)}
 
+/* certificates */
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.cert{display:flex;flex-direction:column;gap:.25rem;padding:1.5rem;background:var(--paper);border:1px solid var(--line);border-radius:6px;text-decoration:none;font-size:.98rem;color:var(--muted);transition:border-color .15s,background .15s}
+.cert:hover{border-color:var(--accent);background:#F6FAF9}
+.cert strong{font:700 1.15rem var(--display);color:var(--ink)}
+.cert-tag{align-self:flex-start;padding:.1rem .6rem;margin-bottom:.5rem;background:var(--hl);color:var(--ink);border-radius:4px;font-weight:600;font-size:.85rem}
+.cert-date{font-size:.9rem}
+.cert-open{margin-top:.9rem;color:var(--accent);font-weight:600;text-decoration:underline}
+
 /* contact */
 .contact{text-align:center;border-top:1px solid var(--line)}
 .contact .actions{justify-content:center}
